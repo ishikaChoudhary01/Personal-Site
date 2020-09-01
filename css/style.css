@@ -12,5 +12,17 @@
 }
 
 .subtitle {
-  
+
+}
+
+h1 {
+  font-family: 'Montserrat-medium', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
 }
