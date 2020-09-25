@@ -1,6 +1,15 @@
 #logo {
   height: 40px;
   width: 40px;
+  opacity: 1;
+}
+
+.jumbotron {
+  background-color: #EDF7F6;
+}
+
+.navbar {
+  opacity: 0.8;
 }
 
 .col-lg-4 {
@@ -11,12 +20,31 @@
   padding: 10px 20px;
 }
 
-.subtitle {
-
+.about-content {
+  padding-top: 25px;
 }
 
+.section {
+  margin-bottom: 100px;
+}
+
+.skill-name {
+  font-size: 24px;
+}
+
+.contact-info {
+  display: inline-block;
+}
+
+.container {
+  text-align: center;
+}
+
+
+
 h1 {
-  font-family: 'Montserrat-medium', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 6em;
 }
 
 h2 {

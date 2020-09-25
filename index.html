@@ -17,7 +17,7 @@
 
 <! Navigation Bar -->
 
-    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
       <a href="" class="navbar-brand">
           <img src="media/logo.png" id="logo">
       </a>
@@ -27,13 +27,13 @@
  <div class="collapse navbar-collapse" id="navbarSupportedContent">
    <ul class="navbar-nav ml-auto">
      <li class="nav-item">
-       <a href="" class="nav-link">Skills</a>
+       <a href="#skills" class="nav-link">Skills</a>
      </li>
      <li class="nav-item">
-       <a href="" class="nav-link">Projects</a>
+       <a href="#projects" class="nav-link">Projects</a>
      </li>
      <li class="nav-item">
-       <a href="" class="nav-link">Contact</a>
+       <a href="#contact" class="nav-link">Contact</a>
      </li>
    </ul>
  </div>
@@ -41,70 +41,93 @@
 
     <! About me -->
 
-    <div class="jumbotron about">
-      <h1>Ishika Choudhary</h1>
-      <h2>A Computer Science student at Northeastern University</h2>
-      <p>Hello! My name is Ishika. I'm currently a second-year combined Computer Science
-      and Mathematics major at Northeastern University in Boston, MA. In my free time, I like to visit
-      new coffee shops, attend concerts at Boston Symphony Orchestra, cook with my
-      roommates, and of course code! Scroll down to check out some of my projects!</p>
-      <img src="media/ishika.jpeg">
+    <div class="jumbotron about mb-5">
+      <div class="row">
+        <div class="col-8 about-content">
+          <h1>Ishika Choudhary</h1>
+          <h2>A Computer Science student at Northeastern University</h2>
+          <p>Hello! My name is Ishika. I'm currently a second-year combined Computer Science
+          and Mathematics major at Northeastern University in Boston, MA. In my free time, I like to visit
+          new coffee shops, attend concerts at Boston Symphony Orchestra, cook with my
+          roommates, and of course code! Scroll down to check out some of my projects!</p>
+        </div>
+        <div class="col-4">
+          <img class="float-right about-content"src="media/ishika.jpeg">
+        </div>
+      </div>
     </div>
 
     <! Skills -->
 
+    <a id="skills">
     <h2 class="subtitle text-center">Skills</h2>
 
     <div class="row">
-      <div class="col-lg-4 col-md-6">
-        Java
+      <div class="col">
+        <p class="text-right skill-name">Java</p>
+      </div>
+      <div class="col">
         <div class="progress">
           <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6">
-        Javascript
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="text-right skill-name">Javascript</p>
+      </div>
+      <div class="col">
         <div class="progress">
           <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6">
-        HTML
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="text-right skill-name">HTML</p>
+      </div>
+      <div class="col">
         <div class="progress">
           <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6">
-        CSS
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="text-right skill-name">CSS</p>
+      </div>
+      <div class="col">
         <div class="progress">
           <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6">
-        Bootstrap
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="text-right skill-name">Python</p>
       </div>
-      <div class="col-lg-4 col-md-6">
-        Python
+      <div class="col">
         <div class="progress">
           <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
     </div>
+  </a>
 
 <! Projects -->
 
-<h2 class="subtitle text-center">My Projects</h2>
+<a id="projects">
+<h2 class="subtitle text-center">Projects</h2>
 
 <div class="row">
   <div class="col">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">N Bullets</h5>
-        <p class="card-text">Add description</p>
-        <a href="#" class="btn btn-primary">Link to repo on github</a>
+        <p class="card-text">A game with the objective to shoot ships flying across the screen, given
+        a number of bullets. Bullets multiply upon explosion in a circular pattern.
+        Developed in Java. Repository available upon request.
+    </p>
       </div>
     </div>
   </div>
@@ -112,8 +135,9 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Minesweeper</h5>
-        <p class="card-text">Add description</p>
-        <a href="#" class="btn btn-primary">Link to repo on github</a>
+        <p class="card-text">A classic game of Minesweeper, developed in Java. Players are able to click
+      on cells, flag them, and the game ends when a mine is hit. Repository available upon request.</p>
+
       </div>
     </div>
   </div>
@@ -124,8 +148,8 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Marble Solitaire</h5>
-        <p class="card-text">Add description</p>
-        <a href="#" class="btn btn-primary">Link to repo on github</a>
+        <p class="card-text">This game uses the model-view-controller design pattern,
+      with a simple view using the console. Developed in Java. Repository available upon request.</p>
       </div>
     </div>
   </div>
@@ -133,30 +157,40 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Excellence Animator</h5>
-        <p class="card-text">Add description</p>
-        <a href="#" class="btn btn-primary">Link to repo on github</a>
+        <p class="card-text">An animation application takes in the description of
+      an animation, and can produce a visual, textual, or svg rendering of the
+    animation. Developed in Java, with the Java Swing library. Repository available upon request.</p>
       </div>
     </div>
   </div>
 </div>
+</a>
 
 <! Contact -->
 
+<a id="contact">
 <h2 class="subtitle text-center">Contact</h2>
 
 <! Linkedin, Github, Email -->
+<div class="container">
+  <div class="contact-info">
 
-<div class="row">
-  <div class="col-4">
-    <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/>
-  </div>
-  <div class="col-4">
-    <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
-  </div>
-  <div class="col-4">
-    <img src="https://img.icons8.com/ios-glyphs/50/000000/email.png"/>
+      <a href="https://www.linkedin.com/in/ishika-choudhary-2108471b5/">
+        <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/>
+      </a>
+
+      <a href="https://github.com/ishikaChoudhary01?tab=repositories">
+        <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png" id="github"/>
+      </a>
+
+
+      <a href="mailto:choudhary.i@northeastern.edu" id="email">
+          <img src="https://img.icons8.com/ios-glyphs/50/000000/email.png"/>
+      </a>
+
   </div>
 </div>
+</a>
 
 
 
